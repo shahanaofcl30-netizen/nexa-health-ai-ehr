@@ -15,6 +15,8 @@ export default function Sidebar(){
       <nav className="space-y-2">
         <NavItem to="/" icon={Home}>Dashboard</NavItem>
         <NavItem to="/patients" icon={Users}>Patients</NavItem>
+        <NavItem to="/doctor" icon={Users}>Doctor</NavItem>
+        <NavItem to="/admin" icon={Settings}>Admin</NavItem>
         <NavItem to="/settings" icon={Settings}>Settings</NavItem>
       </nav>
     </aside>
